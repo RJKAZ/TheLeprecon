@@ -54,3 +54,15 @@ img {
   line-height: 75px;
   font-size: 30px;
 }
+
+.leftpic {
+  float: left;
+  width: 25%;
+  height: 25%;
+}
+
+.rightinfo {
+  width: calc(100% - 160px);
+  min-width: 67%;
+  float: right;
+}
