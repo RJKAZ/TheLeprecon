@@ -33,7 +33,7 @@
   .sidebar a {font-size: 18px;}
 }
 
-img {
+.comingsoon {
   width: 50%;
   height: 50%; 
   outline: black;
@@ -55,14 +55,21 @@ img {
   font-size: 30px;
 }
 
+.wrapper {
+  margin-left: 160px;
+  background-color: cadetblue;
+}
+
 .leftpic {
-  float: left;
-  width: 25%;
   height: 25%;
 }
 
-.rightinfo {
-  width: calc(100% - 160px);
-  min-width: 67%;
-  float: right;
+.lep-gifs {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+#summon-leps {
+  width: 25%;
+  height: 25%;
 }
